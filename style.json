@@ -1,0 +1,356 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"FCAI Genral Mangment ",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "sizeGrip",
+			"navigation":[
+				{
+					"minimize":"btn_minimize",
+					"close": "btn_close",
+					"restore":[
+						{	
+							"buttonName": "btn_maximize",
+							"normalIcon": ":/icon/image/icon/square.svg",
+							"maximizedIcon": ":/icon/image/icon/copy.svg"
+						}
+					],
+					"moveWindow": "headerContainer",
+					"tittleBar": "headerContainer"
+				}
+			]
+		}
+	],
+	"QCustomSlideMenu": [
+		
+		{
+		"name": "LeftMenuCountainer",
+		"defaultSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 50,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 160,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "btn_menu",
+			"icons": [{
+				"whenMenuIsCollapsed": ":/icon/image/icon/menu.svg",
+				"whenMenuIsExpanded": ":/icon/image/icon/chevron-left.svg"
+			}]
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}]
+
+
+	},
+
+	{
+		"name": "centerMenuContainer",
+		"defaultSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 300,
+			"height": "parent"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}]
+
+
+	},
+
+	{
+		"name": "rightMenuContainer",
+		"defaultSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"expandedSize": [{
+			"width": 310,
+			"height": "auto"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}]
+	},
+
+	{
+		"name": "PopupNotificationContainer",
+		"defaultSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"expandedSize": [{
+			"width": 500,
+			"height": 100
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 910,
+			"animationEasingCurve":"Linear"
+		}],
+			"floatPosition": [
+				{
+					"relativeTo": "centralwidget",
+					"position": "center",
+					"shadow":[
+						{
+							"color": "#000",
+							"blurRadius": 10,
+							"xOffset": 0,
+							"yOffset": 0
+						}
+					]
+				}
+			],
+				"toggleButton": [{
+					"buttonName": "btn_notificatoin"
+				}]
+
+	},	{
+		"name": "chat_user_container",
+		"defaultSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"expandedSize": [{
+			"width": 300,
+			"height": "auto"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}],		
+		"toggleButton": [{
+			"buttonName": "btn_user_chat"
+		}]
+
+
+	},	{
+		"name": "chat_report_container",
+		"defaultSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"expandedSize": [{
+			"width": 300,
+			"height": "auto"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}],
+		"toggleButton": [{
+			"buttonName": "btn_report_chat"
+		}]
+
+
+	},	{
+		"name": "report_control_continer",
+		"defaultSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "auto"
+		}],
+		"expandedSize": [{
+			"width": 300,
+			"height": 300
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 500,
+			"animationEasingCurve":"Linear"
+		}]
+
+	}
+		
+
+
+
+
+
+]
+,
+"QStackedWidget":[
+	{
+		"name":"mainPages",
+		"transitionAnimation":[
+			{
+				"fade":[
+					{
+						"active": true,
+						"duration":1000,
+						"easingCurve": "OutBack"
+					}
+				],
+				"slide":[
+					{
+						"active":true,
+						"duration": 1000,
+						"direction": "horizontal",
+						"easingCurve": "OutBack"
+					}
+				]
+			}
+		],
+		"navigation":[
+			{
+
+				"navigationButtons":[
+					{
+						"btn_home": "page_home",
+						"btn_chats": "page_chat",
+						"btn_users": "page_users"
+					}
+				]
+			}
+		]
+		
+	},
+	{
+		"name":"stackedWidget",
+		"transitionAnimation":[
+			{
+				"fade":[
+					{
+						"active": true,
+						"duration":1000,
+						"easingCurve": "OutBack"
+					}
+				],
+				"slide":[
+					{
+						"active":true,
+						"duration": 1000,
+						"direction": "horizontal",
+						"easingCurve": "OutBack"
+					}
+				]
+			}
+		],
+		"navigation":[
+			{
+
+				"navigationButtons":[
+					{
+						"btn_settings": "page_settings",
+						"btn_info": "page_info",
+						"btn_help": "page_help"
+					}
+				]
+			}
+		]
+		
+
+	},{
+		"name":"report_control",
+		"transitionAnimation":[
+			{
+				"fade":[
+					{
+						"active": true,
+						"duration":1000,
+						"easingCurve": "OutBack"
+					}
+				],
+				"slide":[
+					{
+						"active":true,
+						"duration": 1000,
+						"direction": "horizontal",
+						"easingCurve": "OutBack"
+					}
+				]
+			}
+		],
+		"navigation":[
+			{
+
+				"navigationButtons":[
+					{
+						"btn_add_report": "add_report_page",
+						"btn_edit_report": "edit_report_page"
+					}
+				]
+			}
+		]
+		
+	},{
+		"name":"rightMenuPages",
+		"transitionAnimation":[
+			{
+				"fade":[
+					{
+						"active": true,
+						"duration":1000,
+						"easingCurve": "OutBack"
+					}
+				],
+				"slide":[
+					{
+						"active":true,
+						"duration": 1000,
+						"direction": "horizontal",
+						"easingCurve": "OutBack"
+					}
+				]
+			}
+		],
+		"navigation":[
+			{
+
+				"navigationButtons":[
+					{
+						"btn_profile": "page_user_info",
+						"btn_add_user": "page_user_add",
+						"btn_edit_user": "page_user_edit",
+						"btn_edit_user_profile": "page_user_edit"
+					}
+				]
+			}
+		]
+		
+	}
+]
+
+}
+
+
+
+
+
+
