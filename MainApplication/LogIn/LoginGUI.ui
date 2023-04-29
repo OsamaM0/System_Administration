@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1151</width>
+    <height>619</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#FFFFFF;
+border-radius:50px</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>1111</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:#FFFFFF;
+border-radius:50px</string>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>180</y>
+      <width>401</width>
+      <height>201</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:1, x2:1, y2:0, stop:1 rgba(245, 245, 245,250));
+
+border-radius: 50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>60</y>
+      <width>400</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>400</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Lucida Console</family>
+      <pointsize>36</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.47191 rgba(89, 165, 142, 255), stop:1 rgba(184, 184, 184, 255))</string>
+    </property>
+    <property name="text">
+     <string>اهلاً بيك</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_username">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>200</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+background-color:rgba(0,0,0,0);
+border:none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color:rgb(0,0,0);
+padding-bottom:7px;
+}
+QLineEdit:hover{
+
+background-color:#5EAAA8
+border:none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color:rgb(0,0,0);
+padding-bottom:7px;
+
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>أسم المستخدم</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="le_password">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>290</y>
+      <width>321</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(0,0,0,0);
+border:none;
+border-bottom: 2px solid rgba(105,118,132,255);
+color:rgb(0,0,0);
+padding-bottom:7px;</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>كلمة المرور</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>410</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton#btn_login{
+	
+background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.45,stop:0 rgba(20, 47, 78, 219), stop:1 rgba(85, 95, 112, 226));
+
+color:rgba(255,255,255,210);
+
+border-radius:10px;
+}
+
+QPushButton#btn_login:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.45,stop:0 rgba(50, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+	
+
+
+}
+
+QPushButton#btn_login:pressed{
+	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105,118,132,200);
+}</string>
+    </property>
+    <property name="text">
+     <string>دخول</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_close">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>20</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton#btn_close{
+	
+background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.45,stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));
+
+color:rgba(100,100,100,100);
+
+border-radius:10px;
+}
+
+QPushButton#btn_close:hover{
+background-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.45,stop:0 rgba(50, 67, 98, 219), stop:1 rgba(105, 118, 132, 226));
+color:#FFFFFF
+
+
+}
+
+QPushButton#btn_close:pressed{
+	
+	padding-left:5px;
+	padding-top:5px;
+	background-color:rgba(105,118,132,200);
+	color:#FFFFFF
+
+}</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>701</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(:/newPrefix/image/LogIn/Log_In_background.jpg);
+background-color:#FFFFFF;
+border-radius:50px;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>33</x>
+      <y>10</y>
+      <width>661</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>30</width>
+      <height>280</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>20</y>
+      <width>51</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_4</zorder>
+   <zorder>le_password</zorder>
+   <zorder>le_username</zorder>
+   <zorder>btn_login</zorder>
+   <zorder>btn_close</zorder>
+   <zorder>label</zorder>
+   <zorder>label_5</zorder>
+   <zorder>label_3</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../../res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
