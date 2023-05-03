@@ -8,13 +8,23 @@ The Chat Page is where administrators can communicate with each other or with em
 The idea of chat is to chat about report admin send it to employees,  
 
 Features of the Chat Page include:
-- create, edit, remove reports 
+- Create, edit, remove reports 
 - Sending and receiving messages about spacific report 
-- edit, remove messages
+- Edit, remove messages
 - Viewing message history
 - Searching for specific conversations about report 
-- searching in conversations about any message 
+- Searching in conversations about any message 
+- Rank User change according it you accepted or rejected the report 
 
+<p align="center">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/chat.jpg" width="400" height="250" alt="Dashboard">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/chatmodifi.jpg" width="400" height="250" alt="Dashboard User Page">
+</p>
+</br>
+<p align="center">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/report.jpg" width="400" height="250" alt="Dashboard">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/userrank.jpg" width="200" height="250" alt="Dashboard User Page">
+</p>
 
 ## Dashboard Page 📊
 
@@ -29,6 +39,12 @@ Features of the Dashboard Page include:
 - Customizable widgets
 - Interactive charts and graphs
 
+<p align="center">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/Dashboard.jpg" width="400" height="250" alt="Dashboard">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/Dashboard_userpage.jpg" width="400" height="250" alt="Dashboard User Page">
+</p>
+
+
 ## User Control Page 👤
 
 The User Control Page is where you can manage user accounts, permissions, and access. It includes a user management panel that allows you to create new accounts, modify user permissions, and view user activity logs. 
@@ -38,6 +54,14 @@ Features of the User Control Page include:
 - Setting user permissions and access levels
 - Viewing user activity logs
 - Managing user roles and groups
+
+<p align="center">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/user_control.jpg" width="400" height="250" alt="Dashboard">
+  <img src="https://github.com/OsamaM0/System_Administration/blob/main/image/userpage.jpg" width="400" height="250" alt="Dashboard User Page">
+</p>
+
+
+
 
 Overall, our Administration Program is an essential tool for any system administrator. With its user-friendly interface and powerful features, it makes managing your system easy and efficient. 
 
@@ -52,10 +76,10 @@ This program is licensed under the MIT License, which means it can be used, modi
 
 ## Contact Us 📧
 For any queries or support, please feel free to contact us at
-<p align="center">
+
+  
+ <p align="center">
   <a href="https://www.facebook.com/profile.php?id=100010073048538&mibextid=ZbWKwL"><img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook"/></a>
   <a href="https://t.me/Osama_Mo7"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"/></a>
   <a href="https://www.linkedin.com/in/osama-mohammed-456502205"><img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="LinkedIn"/></a>
 </p>
-
-
